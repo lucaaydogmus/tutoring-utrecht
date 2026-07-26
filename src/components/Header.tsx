@@ -23,7 +23,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <a href="#home" className="flex-none font-heading text-lg font-semibold text-ink">
-          Bijles met Luca
+          Utrecht Bijles
         </a>
 
         <nav className="hidden items-center gap-4 xl:flex">

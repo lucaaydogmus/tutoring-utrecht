@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { LegalContent } from "@/components/LegalContent";
 
 export const metadata: Metadata = {
-  title: "Algemene voorwaarden | Bijles met Luca",
+  title: "Algemene voorwaarden | Utrecht Bijles",
 };
 
 export default function TermsPage() {

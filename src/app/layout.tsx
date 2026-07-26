@@ -16,14 +16,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
-  title: "Bijles Basisschool, Wiskunde en Natuurwetenschappen Utrecht | Bijles met Luca",
+  title: "Bijles Basisschool, Wiskunde en Natuurwetenschappen Utrecht | Utrecht Bijles",
   description:
     "Persoonlijke bijles in Utrecht en online voor basisschool, VMBO, HAVO en VWO. Rekenen, taal, wiskunde, natuurkunde, scheikunde en Engels. Volledig in het Nederlands of Engels.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Bijles met Luca — Persoonlijke bijles in Utrecht en online",
+    title: "Utrecht Bijles — Persoonlijke bijles in Utrecht en online",
     description:
       "Persoonlijke bijles in Utrecht en online voor basisschool, VMBO, HAVO en VWO. Rekenen, taal, wiskunde, natuurkunde, scheikunde en Engels.",
     url: siteConfig.siteUrl,

@@ -1,7 +1,7 @@
 // Central place to edit business details, contact info, and pricing.
 
 export const siteConfig = {
-  businessName: "Bijles met Luca",
+  businessName: "Utrecht Bijles",
   tutorName: "Luca Aydogmus",
   area: "Utrecht en omgeving",
   phoneDisplay: "06 27 38 77 91",

@@ -61,7 +61,7 @@ export async function POST(request: Request) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: `Bijles met Luca website <${fromEmail}>`,
+        from: `Utrecht Bijles website <${fromEmail}>`,
         to: [toEmail],
         reply_to: email,
         subject: `Nieuwe bijlesaanvraag van ${data.name}`,

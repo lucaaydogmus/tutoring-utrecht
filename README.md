@@ -1,4 +1,4 @@
-# Bijles met Luca
+# Utrecht Bijles
 
 Website for Luca Aydogmus's tutoring practice in Utrecht. Next.js (App Router) + Tailwind CSS v4, bilingual (NL/EN).
 
