@@ -11,7 +11,7 @@ export function Pricing() {
         {t.pricing.title}
       </h2>
 
-      <div className="mt-12 grid gap-6 md:grid-cols-3">
+      <div className="mt-12 grid gap-6 md:grid-cols-2">
         {t.pricing.cards.map((card) => (
           <div
             key={card.title}
