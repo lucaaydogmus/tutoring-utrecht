@@ -71,11 +71,6 @@ export interface Dictionary {
     qualifications: string[];
     photoAlt: string;
   };
-  testimonials: {
-    title: string;
-    comingSoon: string;
-    consentNote: string;
-  };
   faq: {
     title: string;
     items: { q: string; a: string }[];
@@ -349,12 +344,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Online en op locatie in Utrecht",
       ],
       photoAlt: "Portret van Luca Aydogmus",
-    },
-    testimonials: {
-      title: "Ervaringen van leerlingen en ouders",
-      comingSoon: "Beoordeling binnenkort beschikbaar",
-      consentNote:
-        "Nieuwe beoordelingen worden uitsluitend met toestemming van de leerling of ouder geplaatst.",
     },
     faq: {
       title: "Veelgestelde vragen",
@@ -704,12 +693,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Online and in-person in Utrecht",
       ],
       photoAlt: "Portrait of Luca Aydogmus",
-    },
-    testimonials: {
-      title: "Experiences from students and parents",
-      comingSoon: "Review coming soon",
-      consentNote:
-        "New reviews are only posted with the consent of the student or parent.",
     },
     faq: {
       title: "Frequently asked questions",

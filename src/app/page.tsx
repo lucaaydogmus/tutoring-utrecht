@@ -9,7 +9,6 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { Pricing } from "@/components/Pricing";
 import { ProblemSolution } from "@/components/ProblemSolution";
 import { Subjects } from "@/components/Subjects";
-import { Testimonials } from "@/components/Testimonials";
 import { TrustBar } from "@/components/TrustBar";
 import { WhatsAppFloatingButton } from "@/components/WhatsAppFloatingButton";
 
@@ -26,7 +25,6 @@ export default function Home() {
         <HowItWorks />
         <Pricing />
         <About />
-        <Testimonials />
         <FAQ />
         <Contact />
       </main>
