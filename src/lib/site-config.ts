@@ -12,7 +12,7 @@ export const siteConfig = {
     "Hallo Luca, ik ben op zoek naar bijles voor mijn kind. Het gaat om [vak, niveau en leerjaar].",
   whatsappPrefillEN:
     "Hello Luca, I'm looking for tutoring for my child. It concerns [subject, level and school year].",
-  siteUrl: "https://example.com", // TODO: replace with the real production domain once deployed
+  siteUrl: "https://tutoring-utrecht.vercel.app", // TODO: update if a custom domain is connected later
 } as const;
 
 export function whatsappLink(prefill: string) {
