@@ -50,7 +50,7 @@ export function Hero() {
         </div>
 
         <div className="fade-in-section mx-auto w-full max-w-sm lg:max-w-none">
-          <PortraitFrame alt={t.hero.photoAlt} />
+          <PortraitFrame alt={t.hero.photoAlt} priority />
         </div>
       </div>
     </section>
