@@ -20,7 +20,6 @@ export function whatsappLink(prefill: string) {
 }
 
 export const pricing = {
-  online: { priceEur: 32.5 },
-  utrecht: { priceEur: 37.5 },
-  duoFrom: { priceEur: 25 },
+  online: { priceEur: 25 },
+  utrecht: { priceEur: 30 },
 } as const;

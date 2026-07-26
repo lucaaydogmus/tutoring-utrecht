@@ -288,7 +288,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       cards: [
         {
           title: "Online bijles",
-          price: "€32,50 per uur",
+          price: "€25 per uur",
           points: [
             "Persoonlijke één-op-éénbegeleiding",
             "Volledig Nederlands- of Engelstalig",
@@ -300,7 +300,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         },
         {
           title: "Bijles in Utrecht",
-          price: "€37,50 per uur",
+          price: "€30 per uur",
           label: "Meest gekozen",
           points: [
             "Persoonlijke één-op-éénbegeleiding",
@@ -308,20 +308,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
             "Nederlands of Engels",
             "Materiaal afgestemd op de leerling",
             "Rustige en directe begeleiding",
+            "Eventuele reiskosten afhankelijk van de locatie",
           ],
           button: "Plan een kennismaking",
-        },
-        {
-          title: "Duo-bijles",
-          price: "Vanaf €25 per leerling",
-          points: [
-            "Voor twee leerlingen met een vergelijkbaar niveau",
-            "Geschikt voor klasgenoten of broers en zussen",
-            "Persoonlijker dan grote groepslessen",
-            "Samen leren tegen een lager tarief",
-            "Nederlands of Engels",
-          ],
-          button: "Bespreek de mogelijkheden",
         },
       ],
       footnote:
@@ -643,7 +632,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       cards: [
         {
           title: "Online tutoring",
-          price: "€32.50 per hour",
+          price: "€25 per hour",
           points: [
             "Personal one-on-one support",
             "Entirely in Dutch or English",
@@ -655,7 +644,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         },
         {
           title: "Tutoring in Utrecht",
-          price: "€37.50 per hour",
+          price: "€30 per hour",
           label: "Most chosen",
           points: [
             "Personal one-on-one support",
@@ -663,20 +652,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
             "Dutch or English",
             "Materials tailored to the student",
             "Calm and direct guidance",
+            "Travel costs may be considered depending on the location",
           ],
           button: "Book an introduction",
-        },
-        {
-          title: "Duo tutoring",
-          price: "From €25 per student",
-          points: [
-            "For two students at a similar level",
-            "Suitable for classmates or siblings",
-            "More personal than large group lessons",
-            "Learn together at a lower rate",
-            "Dutch or English",
-          ],
-          button: "Discuss the options",
         },
       ],
       footnote:
