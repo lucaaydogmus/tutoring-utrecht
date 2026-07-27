@@ -149,7 +149,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       primaryCta: "Plan een gratis kennismaking",
       secondaryCta: "Stuur een WhatsApp",
       trustPoints: [
-        "Twee jaar ervaring als Learning Assistant",
+        "Ervaring als Learning Assistant",
         "Voor basisschool, VMBO, HAVO en VWO",
         "Volledig Nederlandstalig of Engelstalig",
       ],
@@ -493,7 +493,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       primaryCta: "Book a free introduction",
       secondaryCta: "Send a WhatsApp message",
       trustPoints: [
-        "Two years of Learning Assistant experience",
+        "Learning Assistant experience",
         "Primary school, VMBO, HAVO and VWO",
         "Fully available in Dutch or English",
       ],
