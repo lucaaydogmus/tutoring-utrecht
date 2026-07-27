@@ -319,14 +319,14 @@ export const dictionaries: Record<Locale, Dictionary> = {
     about: {
       title: "Over Luca",
       paragraphs: [
-        "Ik studeer wiskunde en natuurkunde en heb twee jaar ervaring als Learning Assistant binnen het universitair onderwijs. In die rol begeleidde ik studenten tijdens lessen, besprak ik opgaven en leerde ik complexe onderwerpen op verschillende manieren uitleggen.",
+        "Ik studeer wiskunde en natuurkunde en heb ervaring als Learning Assistant binnen het universitair onderwijs. In die rol begeleidde ik studenten tijdens lessen, besprak ik opgaven en leerde ik complexe onderwerpen op verschillende manieren uitleggen.",
         "Mijn manier van lesgeven is rustig, gestructureerd en persoonlijk. Niet iedere leerling begrijpt een onderwerp op dezelfde manier. Daarom pas ik mijn uitleg aan en neem ik de tijd om te ontdekken waar iemand precies vastloopt.",
         "Ik probeer niet alleen te laten zien welke stappen een leerling moet volgen, maar vooral waarom die stappen werken. Zo bouwen we aan een sterke basis, meer zelfvertrouwen en het vermogen om uiteindelijk zelfstandig verder te kunnen.",
         "Ik begeleid basisschoolleerlingen en middelbare scholieren bij rekenen, taal, wiskunde, natuurkunde, scheikunde en Engels. De volledige les kan zowel in het Nederlands als in het Engels plaatsvinden.",
       ],
       qualifications: [
         "Student wiskunde en natuurkunde",
-        "Twee jaar ervaring als Learning Assistant",
+        "Ervaring als Learning Assistant",
         "Begeleiding voor basisschool en middelbare school",
         "Wiskunde, natuurkunde, scheikunde en Engels",
         "Nederlands- en Engelstalige lessen",
@@ -663,14 +663,14 @@ export const dictionaries: Record<Locale, Dictionary> = {
     about: {
       title: "About Luca",
       paragraphs: [
-        "I study mathematics and physics and have two years of experience as a Learning Assistant in university education. In that role, I supported students during classes, discussed problem sets, and learned to explain complex topics in different ways.",
+        "I study mathematics and physics and have experience as a Learning Assistant in university education. In that role, I supported students during classes, discussed problem sets, and learned to explain complex topics in different ways.",
         "My teaching style is calm, structured and personal. Not every student understands a topic the same way. That's why I adapt my explanations and take the time to find out exactly where someone gets stuck.",
         "I try to show not just which steps a student needs to follow, but especially why those steps work. This builds a strong foundation, more confidence, and the ability to eventually continue independently.",
         "I support primary and secondary school students with math, language, mathematics, physics, chemistry and English. The entire lesson can take place in either Dutch or English.",
       ],
       qualifications: [
         "Mathematics and physics student",
-        "Two years of Learning Assistant experience",
+        "Learning Assistant experience",
         "Support for primary and secondary school",
         "Mathematics, physics, chemistry and English",
         "Dutch and English-language lessons",
