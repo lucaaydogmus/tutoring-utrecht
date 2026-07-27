@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     type: "website",
   },
+  verification: {
+    google: "MZYCxAyNq9eF0HbuZL4qZfFjFbaF9Ld7xIeqywo5Ne4",
+  },
 };
 
 const structuredData = {
