@@ -70,6 +70,7 @@ export interface Dictionary {
     paragraphs: string[];
     qualifications: string[];
     photoAlt: string;
+    linkedinLabel: string;
   };
   faq: {
     title: string;
@@ -152,8 +153,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Voor basisschool, VMBO, HAVO en VWO",
         "Volledig Nederlandstalig of Engelstalig",
       ],
-      photoAlt:
-        "Luca Aydogmus, bijlesdocent voor basisschool, wiskunde, natuurkunde, scheikunde en Engels in Utrecht.",
+      photoAlt: "Zicht op een gracht in de historische binnenstad van Utrecht.",
     },
     trustBar: {
       items: [
@@ -333,6 +333,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Online en op locatie in Utrecht",
       ],
       photoAlt: "Portret van Luca Aydogmus",
+      linkedinLabel: "Bekijk LinkedIn-profiel",
     },
     faq: {
       title: "Veelgestelde vragen",
@@ -496,8 +497,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Primary school, VMBO, HAVO and VWO",
         "Fully available in Dutch or English",
       ],
-      photoAlt:
-        "Luca Aydogmus, tutor for primary school, mathematics, physics, chemistry and English in Utrecht.",
+      photoAlt: "View of a canal in Utrecht's historic city center.",
     },
     trustBar: {
       items: [
@@ -677,6 +677,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "Online and in-person in Utrecht",
       ],
       photoAlt: "Portrait of Luca Aydogmus",
+      linkedinLabel: "View LinkedIn profile",
     },
     faq: {
       title: "Frequently asked questions",

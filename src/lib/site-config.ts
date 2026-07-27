@@ -13,6 +13,7 @@ export const siteConfig = {
   whatsappPrefillEN:
     "Hello Luca, I'm looking for tutoring for my child. It concerns [subject, level and school year].",
   siteUrl: "https://utrechtbijles.com",
+  linkedinUrl: "https://www.linkedin.com/in/lucaaydogmus/",
 } as const;
 
 export function whatsappLink(prefill: string) {

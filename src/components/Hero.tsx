@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useLanguage } from "@/lib/i18n/LanguageProvider";
 import { siteConfig, whatsappLink } from "@/lib/site-config";
-import { PortraitFrame } from "./PortraitFrame";
 
 export function Hero() {
   const { t, locale } = useLanguage();
@@ -49,8 +49,21 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="fade-in-section mx-auto w-full max-w-sm lg:max-w-none">
-          <PortraitFrame alt={t.hero.photoAlt} priority />
+        <div className="fade-in-section relative mx-auto w-full max-w-lg lg:max-w-none">
+          <div
+            aria-hidden="true"
+            className="absolute -right-6 -top-6 -z-10 h-40 w-40 rounded-full bg-accent-blue-soft sm:h-56 sm:w-56"
+          />
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border bg-surface shadow-[0_20px_45px_-25px_rgba(23,35,60,0.35)]">
+            <Image
+              src="/utrecht-canal.jpg"
+              alt={t.hero.photoAlt}
+              fill
+              sizes="(min-width: 1024px) 600px, 90vw"
+              priority
+              className="object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>

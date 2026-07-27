@@ -196,6 +196,24 @@ export function MailIcon({ className }: IconProps) {
   );
 }
 
+export function LinkedInIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <rect x="3.5" y="3.5" width="17" height="17" rx="3" stroke="currentColor" strokeWidth={base} />
+      <path d="M8 10.5v6" stroke="currentColor" strokeWidth={base} strokeLinecap="round" />
+      <circle cx="8" cy="7.5" r="0.9" fill="currentColor" />
+      <path
+        d="M11.5 16.5v-3.7c0-1.2.8-1.9 1.8-1.9 1 0 1.7.7 1.7 1.9v3.7"
+        stroke="currentColor"
+        strokeWidth={base}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path d="M11.5 10.5v6" stroke="currentColor" strokeWidth={base} strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function PinIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">

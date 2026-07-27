@@ -1,6 +1,8 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n/LanguageProvider";
+import { siteConfig } from "@/lib/site-config";
+import { LinkedInIcon } from "./icons";
 import { PortraitFrame } from "./PortraitFrame";
 
 export function About() {
@@ -31,6 +33,16 @@ export function About() {
               </li>
             ))}
           </ul>
+
+          <a
+            href={siteConfig.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-accent-blue transition-colors hover:text-[#3a5975]"
+          >
+            <LinkedInIcon className="h-5 w-5" />
+            {t.about.linkedinLabel}
+          </a>
         </div>
       </div>
     </section>
